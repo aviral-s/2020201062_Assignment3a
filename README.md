@@ -6,25 +6,18 @@
 ## **Q1**
 * input json in `org.json` file.
 * two inputs(employee no.) are taken from user one after another. (input() used two times)
-<emp1>
-<emp2>
-* output is generated on terminal as follows:
-<xyz>
-<xyz> is <number> levels above <emp1>
-<xyz> is <number> levels above <emp2>
-where `<xyz` is the leader of the input employees.
-
+* output is generated on terminal.
 ## **Q2**
 * Input file `date_calculator.txt` contains two dates in two different lines.
-* Date can be of following format:
-10th September, 2020
-DD/MM/YYYY
-DD-MM-YYYY
-DD.MM.YYYY
-10th Sep, 2020
-Example:
-Date1: 10th September, 2020
-Date2: 11th September, 2020
+* Date can be of following format:</br>
+10th September, 2020 or
+DD/MM/YYYY or 
+DD-MM-YYYY or
+DD.MM.YYYY or
+10th Sep, 2020</br>
+Example:</br>
+Date1: 10th September, 2020</br>
+Date2: 11th September, 2020</br>
 * Output is produced on terminal and also written on `output.txt` 
 * Haven't used any python library
 
