@@ -8,12 +8,16 @@
 ## **Q1**
 * input json in `org.json` file.
 * input is as follows:
-<n> <emp1> <emp2> ... <empn>
-* output is generated on terminal as follows:
-<xyz>
-<xyz> is <number> levels above <emp1>
-<xyz> is <number> levels above <emp2>
-where `<xyz` is the leader of the input employees.
+n emp1 emp2 ... empn
+* output is generated on terminal as follows:  
+
+xyz  
+
+xyz is number levels above emp1  
+
+xyz is number levels above emp2  
+
+where `xyz` is the leader of the input employees.
 * line30 : declare list as now there can be more than 2 employees.
 * line31-33 : input is put in the list
 * line 38 ,56 ,68 ,73 ,93 ,107 : for loop is added inorder to loop to all given employees and perform the operations as done on part a.
