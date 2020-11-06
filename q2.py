@@ -1,7 +1,7 @@
 from sys import exit
 import sys
 n = len(sys.argv)
-format=""
+format=' '
 if n>1:
     format = sys.argv[1]
 class Date:  
