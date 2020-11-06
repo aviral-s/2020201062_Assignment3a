@@ -1,9 +1,4 @@
 from sys import exit
-import sys
-n = len(sys.argv)
-format=""
-if n>1:
-    format = sys.argv[1]
 class Date:  
     def __init__(self, d, m, y):  
         self.d = d             
@@ -50,46 +45,28 @@ elif line.find('/') !=-1:
     str = line.split(' ')
     str = str[1].split('/')
     #print(str)
-    if format[0]=='m' or format[0]=='M':
-        d1 = int(str[1])
-        m1 = int(str[0])
-        y1 = int(str[2][:4])
-        dt1 = Date(d1, m1, y1 )
-    else:
-        d1 = int(str[0])
-        m1 = int(str[1])
-        y1 = int(str[2][:4])
-        dt1 = Date(d1, m1, y1 )
+    d1 = int(str[0])
+    m1 = int(str[1])
+    y1 = int(str[2][:4])
+    dt1 = Date(d1, m1, y1 )
 
 elif line.find('-') !=-1:
     str = line.split(' ')
     str = str[1].split('-')
     #print(str)
-    if format[0]=='m' or format[0]=='M':
-        d1 = int(str[1])
-        m1 = int(str[0])
-        y1 = int(str[2][:4])
-        dt1 = Date(d1, m1, y1 )
-    else:
-        d1 = int(str[0])
-        m1 = int(str[1])
-        y1 = int(str[2][:4])
-        dt1 = Date(d1, m1, y1 )
+    d1 = int(str[0])
+    m1 = int(str[1])
+    y1 = int(str[2][:4])
+    dt1 = Date(d1, m1, y1 )
 
 elif line.find('.') !=-1:
     str = line.split(' ')
     str = str[1].split('.')
     #print(str)
-    if format[0]=='m' or format[0]=='M':
-        d1 = int(str[1])
-        m1 = int(str[0])
-        y1 = int(str[2][:4])
-        dt1 = Date(d1, m1, y1 )
-    else:
-        d1 = int(str[0])
-        m1 = int(str[1])
-        y1 = int(str[2][:4])
-        dt1 = Date(d1, m1, y1 )
+    d1 = int(str[0])
+    m1 = int(str[1])
+    y1 = int(str[2][:4])
+    dt1 = Date(d1, m1, y1 )
 
 else:
     print("Please enter valid date in the file!")
@@ -113,46 +90,28 @@ elif line.find('/') !=-1:
     str = line.split(' ')
     str = str[1].split('/')
     #print(str)
-    if format[0]=='m' or format[0]=='M':
-        d1 = int(str[1])
-        m1 = int(str[0])
-        y1 = int(str[2][:4])
-        dt2 = Date(d1, m1, y1 )
-    else:
-        d1 = int(str[0])
-        m1 = int(str[1])
-        y1 = int(str[2][:4])
-        dt2 = Date(d1, m1, y1 )
+    d1 = int(str[0])
+    m1 = int(str[1])
+    y1 = int(str[2][:4])
+    dt2 = Date(d1, m1, y1 )
 
 elif line.find('-') !=-1:
     str = line.split(' ')
     str = str[1].split('-')
     #print(str)
-    if format[0]=='m' or format[0]=='M':
-        d1 = int(str[1])
-        m1 = int(str[0])
-        y1 = int(str[2][:4])
-        dt2 = Date(d1, m1, y1 )
-    else:
-        d1 = int(str[0])
-        m1 = int(str[1])
-        y1 = int(str[2][:4])
-        dt2 = Date(d1, m1, y1 )
+    d1 = int(str[0])
+    m1 = int(str[1])
+    y1 = int(str[2][:4])
+    dt2 = Date(d1, m1, y1 )
 
 elif line.find('.') !=-1:
     str = line.split(' ')
     str = str[1].split('.')
     #print(str)
-    if format[0]=='m' or format[0]=='M':
-        d1 = int(str[1])
-        m1 = int(str[0])
-        y1 = int(str[2][:4])
-        dt2 = Date(d1, m1, y1 )
-    else:
-        d1 = int(str[0])
-        m1 = int(str[1])
-        y1 = int(str[2][:4])
-        dt2 = Date(d1, m1, y1 )
+    d1 = int(str[0])
+    m1 = int(str[1])
+    y1 = int(str[2][:4])
+    dt2 = Date(d1, m1, y1 )
     
 else:
     print("Please enter valid date in the file!")
