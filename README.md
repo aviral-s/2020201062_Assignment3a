@@ -3,7 +3,7 @@
 * Folder contain `q1.py`, `q2.py`, `q3.py` and input - output files `org.json`, `date_calculator.txt`, `Employee1.txt`, `Employee2.txt` ...`Employeek.txt`and `output.txt`
 * For question no. 3, `Employee1.txt`, `Employee2.txt` ...`Employeek.txt` files can be given as input file.
 * All the file gave correct output on my system
-* [https://github.com/aviral-s/2020201062_Assignment3a.git]
+* [https://github.com/aviral-s/2020201062_Assignment3a/tree/PartB]
 
 ## **Q1**
 * input json in `org.json` file.
