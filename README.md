@@ -4,6 +4,7 @@
 * For question no. 3, `Employee1.txt`, `Employee2.txt` ...`Employeek.txt` files can be given as input file.
 * All the file gave correct output on my system
 * [https://github.com/aviral-s/2020201062_Assignment3a/tree/PartB]
+* All the screenshots of cyclomatic complexity are present in `images` folder
 
 ## **Q1**
 * input json in `org.json` file.
@@ -18,10 +19,9 @@ xyz is number levels above emp1
 xyz is number levels above emp2  
 
 where `xyz` is the leader of the input employees.
-* line30 : declare list as now there can be more than 2 employees.
-* line31-33 : input is put in the list
-* line 38 ,56 ,68 ,73 ,93 ,107 : for loop is added inorder to loop to all given employees and perform the operations as done on part a.
-* line38-44 : these lines from part a are removed because now all the employee manipulation is done inside loop.
+* line2, 30, 38, 56, 67, 97 : code is modularised into functions on these line numbers.
+* line125-130 : Driver code to call these functions.
+![](images/q1.png)
 
 
 ## **Q2**
@@ -29,17 +29,15 @@ where `xyz` is the leader of the input employees.
 * New date formats if present are specified in command line argument like mm/dd/yyyy ,mm.dd.yyyy ,mm-dd-yyyy.
 * Output is produced on terminal and also written on `output.txt` 
 * Haven't used any python library for date.
-Following are the changes made to previous code:
-* line2-6: `import sys` along with code to read command line input if given by user.
-* `if` `else` statements are added for the new date format in line 53 58, 68 73, 83 88, 116 121, 131 136, 146 151
+* No changes made to previous code.
+![](images/q2.png)
 
 ## **Q3**
 * ast and simplejson lib is used as `import ast` and `import simplejson`
 * Input is taken from user as 0.5, 1, 1.5 etc as slot duration.
 * `Employee1.txt`,`Employee2.txt`,...,`Employeek.txt` contains busy slots of the employees and input is given in it.
 * The desired output is produced on `output.txt`
-* line3 : `import glob` inorder to get all the `Employee*.txt` file present inside the folder.
-* line9 : Employees = glob.glob('Employee*.txt') is inserted to read all Employee files.
-* line29 30: now list of listflag is created for each employee.
-* line 13 ,31 ,45 ,48 ,117 ,124 ,179 ,199 : for loop for all the employee is inserted inorder to attain a kgeneric functionality for the code.
+* line9 ,47 ,63 ,98 ,161 ,184 ,193 ,221 ,255 : code is modularised into functions on these line numbers.
+* line 291-298 : Driver code to call functions.
+![](images/q3.png)
 
