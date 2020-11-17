@@ -1,9 +1,9 @@
-# **ASSIGNMENT-3(part B)**
+# **ASSIGNMENT-3(part C)**
 * I am using python 3.8.5 and the project was developed in sublime text editor.
 * Folder contain `q1.py`, `q2.py`, `q3.py` and input - output files `org.json`, `date_calculator.txt`, `Employee1.txt`, `Employee2.txt` ...`Employeek.txt`and `output.txt`
 * For question no. 3, `Employee1.txt`, `Employee2.txt` ...`Employeek.txt` files can be given as input file.
 * All the file gave correct output on my system
-* [https://github.com/aviral-s/2020201062_Assignment3a/tree/PartB]
+* [https://github.com/aviral-s/2020201062_Assignment3a/tree/PartC]
 * All the screenshots of cyclomatic complexity are present in `images` folder
 * All the questions gave `A` as the average complexity.
 
