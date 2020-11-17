@@ -5,6 +5,7 @@
 * All the file gave correct output on my system
 * [https://github.com/aviral-s/2020201062_Assignment3a/tree/PartB]
 * All the screenshots of cyclomatic complexity are present in `images` folder
+* All the questions gave `A` as the average complexity.
 
 ## **Q1**
 * input json in `org.json` file.
